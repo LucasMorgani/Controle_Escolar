@@ -5,10 +5,6 @@ header{
     border-bottom: solid #001045;
 }
 
-#banner{
-    width: 100%;
-}
-
 .caixa {
     width: 940px;
     position: relative;     
@@ -23,18 +19,18 @@ header{
     right: 0;
 }
 
-nav{
+header nav{
     position: absolute;
     top: 75px;
     right: 0;
 }
 
-nav li{
+header nav li{
     display: inline;
     margin: 0 0 0 15px;
 }
 
-nav a{
+header nav a{
     text-transform: uppercase;
     color: white;
     font-weight: bold;
@@ -43,11 +39,11 @@ nav a{
     transition: 1s all;
 }
 
-nav a:hover {
+header nav a:hover {
     color: #cac6b8;
 }
 
-
+/*FIM DO CABEÇALHO---------------------------------------------------*/
 
 .principal{
     background-color: #CCCCCC;
@@ -118,7 +114,67 @@ form label, form legend{
 .semsenha{
     margin: 115px;
 }
+/*FIM PAGINA DE LOGIN -----------COMEÇO INICIAL ALUNO--*/
+.inicial_aluno{
+    background-color: antiquewhite;
+    height: 350px;
+}
 
+.inicial_aluno a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.inicial_aluno ul{
+    list-style: none;
+}
+
+.inicial_aluno img{
+    width: 45px;
+}
+
+.inicial_aluno input{
+    display: none;
+}
+
+.inicial_aluno nav{
+    background-color: rgba(97, 97, 97,.9);
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+.inicial_aluno input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+
+.inicial_aluno ul{
+    top:70px;
+    position: absolute;
+    width: 350px;
+}
+
+.inicial_aluno a {
+    display: block;
+    padding: 20px 5px;
+    color: aliceblue;
+}
+
+.inicial_aluno a:hover{
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.inicial_aluno label{
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+/*COMEÇO DO RODAPÉ -----------------------------------*/
 footer{
     text-align: center;
     background: url(imagens/bg.jpg);
