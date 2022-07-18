@@ -9,38 +9,22 @@
     </head>
     
     <body>
-        <header>
-            <div class="caixa">
-                <h1><img src="imagens/logocoruja.png"></h1>
-
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Login</a></li>
-                        <li><a href="sobrenos.html">Sobre nós</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        
         <main>
+            <img src="imagens/minilogo.png" class="logo">
+            <p class="sobrenos"><a href="sobrenos.html style="color: white;>Sobre nós</a></p>
             <div class="login">
-                <h2 class="titulo-centralizado">Iniciar Sessão</h2>
+                <h2 class="titulo-centralizado">Login</h2>
 
-                <label for="id">ID</label>
-                <input type="text" id="id" class="input-padrao" required>
+                <input type="text" id="id" class="input-padrao" placeholder="USUARIO" required>
 
-                <label for="senha">SENHA</label>
-                <input type="password" id="senha" class="input-padrao" required>
+                <input type="password" id="senha" class="input-padrao" placeholder="SENHA" required>
 
                 <input class="enviar" type="submit" value="Entrar">
 
                 <label for="semsenha" class="semsenha"><a href="semsenha.html">Esqueci a senha</a></label>
             </div>
-        </main>
 
-        <footer>
-            <img src="imagens/minilogo.png">
             <p class="copyright">&copy;  Copyright Safe School - 2022 </p>
-        </footer>
+        </main>
     </body>
 </html>

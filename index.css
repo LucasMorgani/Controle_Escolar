@@ -1,101 +1,100 @@
-header{
-    background-color: #3A3845;
-    padding: 20px 0;
-    color:#F7CCAC;
-    border-bottom: solid #001045;
+html,body{
+    height: 100%;
 }
 
-.caixa {
-    width: 940px;
-    position: relative;     
-    margin: 0 auto;
-}
-
-.titulo-principal{
-    padding-left: 20px;
-    font-size: 45px;
-    position: absolute;  
-    top: 20px;
-    right: 0;
-}
-
-header nav{
-    position: absolute;
-    top: 75px;
-    right: 0;
-}
-
-header nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-header nav a{
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-    transition: 1s all;
-}
-
-header nav a:hover {
-    color: #cac6b8;
-}
 
 /*FIM DO CABEÇALHO---------------------------------------------------*/
-
-.principal{
-    background-color: #CCCCCC;
-    padding: 50px;
-    line-height: 25px;
-    
-}
-
 main{
-    background-color: antiquewhite;
-}
-
-.login{
-    width: 940px;   
-    margin: 0 auto;
-    padding: 50px 0;
+    background-image: linear-gradient(90deg,#252525, #757373);
+    background-size: 400% 400%;
+    height: 100%;
     position: relative;
+    animation: colors 10s ease-in-out infinite;
 }
 
-div label{
-    margin-left: 32%;
+a:link {
+    color: rgb(255, 255, 255);
+ }
+ 
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.logo{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sobrenos{
+    text-align: right;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sobrenos:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.02);
+}
+
+.sobrenos a:link{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.login{ 
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
 }
 
 .titulo-centralizado {
-    margin-bottom: 75px;
     text-align: center;
-    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 30px;
+    color: white;
     font-weight: bold;
     font-size: 22px;
-}
-
-form{
-    margin: 40px 0;
-}
-
-form label, form legend{
-    display: inline-block;
-    font-size: 20px;
-    margin: 0 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .input-padrao{
     display: block;
-    margin: 10px 32%;
     padding: 10px 25px;
-    width: 30%;
+    margin: 5px;
+    outline: none;
 }
 
 .enviar{
-    width: 10%;
-    padding: 15px 0;
-    background-color: orange;
+    width: 100%;
+    display: block;
+    padding: 8px 0;
+    background-color: rgb(0, 60, 255);
     color:white;
     font-weight: bold;
     font-size: 18px;
@@ -103,17 +102,44 @@ form label, form legend{
     border-radius: 5px;
     transition: 2s all;
     cursor: pointer;
-    margin-left: 32%;
+    margin-top: 10px;
 }
 
 .enviar:hover{
-    background-color: rgb(255, 60, 0);
-    transform: scale(1.01);
+    background-color: rgb(11, 0, 165);
+    transform: scale(1.02);
 }
 
 .semsenha{
-    margin: 115px;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.semsenha:hover{
+    transform: scale(1.02);
+}
+
+.final{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+}
+
+.copyright{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 13px;
+}
+
 /*FIM PAGINA DE LOGIN -----------COMEÇO INICIAL ALUNO--*/
 .inicial_aluno{
     background-color: antiquewhite;
@@ -175,14 +201,11 @@ form label, form legend{
 
 
 /*COMEÇO DO RODAPÉ -----------------------------------*/
-footer{
-    text-align: center;
-    background: url(imagens/bg.jpg);
-    padding: 50px 0;
-}
 
-.copyright{
-    color: antiquewhite;
-    font-size: 13px;
-    margin: 20px;
+
+footer{
+    background-image: linear-gradient(90deg,#000000, #757373);
+    background-size: 400% 400%;
+    position: relative;
+    animation: colors 10s ease-in-out infinite;
 }
