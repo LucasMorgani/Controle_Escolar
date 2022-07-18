@@ -1,7 +1,7 @@
 header{
-    background-color: #cccccc;
+    background-color: #3A3845;
     padding: 20px 0;
-    color: #001045;
+    color:#F7CCAC;
     border-bottom: solid #001045;
 }
 
@@ -25,7 +25,7 @@ header{
 
 nav{
     position: absolute;
-    top: 110px;
+    top: 75px;
     right: 0;
 }
 
@@ -36,15 +36,18 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: #001045;
+    color: #F7CCAC;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    transition: 1s all;
 }
 
 nav a:hover {
-    color: #c78c19;
+    color: #cac6b8;
 }
+
+
 
 .principal{
     background-color: #CCCCCC;
@@ -53,73 +56,73 @@ nav a:hover {
     
 }
 
-.beneficios h3{
-    padding: 35px;
+main{
+    background-color: antiquewhite;
+}
+
+.login{
+    width: 940px;   
+    margin: 0 auto;
+    padding: 50px 0;
+    position: relative;
+}
+
+div label{
+    margin-left: 32%;
 }
 
 .titulo-centralizado {
+    margin-bottom: 75px;
     text-align: center;
     color: #000000;
     font-weight: bold;
     font-size: 22px;
 }
 
-p{
-    text-align: center;
+form{
+    margin: 40px 0;
 }
 
-.missao{
-    font-size: 19px;
-}
-
-em strong {
-    COLOR: RED;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios{
-    background-color: #cccccc;
-    position: relative;
-    padding: 1px;
-}
-
-.beneficios h3{
-    position: absolute;
-    top: 30px;
-    margin-right: 25%;
-    right: 0;
-}
-
-.beneficios ul{
+form label, form legend{
     display: inline-block;
-    width: 20%;
-    margin-right: 15%;
-    position: absolute;
-    top: 100px;
-    right: 0;
-    /*
-    vertical-align:top;
-    */
+    font-size: 20px;
+    margin: 0 0 100px;
 }
 
-.beneficios li{
-        color: #000000;
-        font-weight: bold;
-        font-size: 22px;
-        padding: 10px;
+.input-padrao{
+    display: block;
+    margin: 10px 32%;
+    padding: 10px 25px;
+    width: 30%;
 }
 
-.imagembeneficios {
-    width: 50%;
+.enviar{
+    width: 10%;
+    padding: 15px 0;
+    background-color: orange;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 2s all;
+    cursor: pointer;
+    margin-left: 32%;
+}
+
+.enviar:hover{
+    background-color: rgb(255, 60, 0);
+    transform: scale(1.01);
+}
+
+.semsenha{
+    margin: 115px;
 }
 
 footer{
     text-align: center;
     background: url(imagens/bg.jpg);
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .copyright{

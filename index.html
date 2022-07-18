@@ -11,43 +11,35 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img src="imagens/logo.png"></h1>
-                <p class="titulo-principal">Safe School</p>
+                <h1><img src="imagens/logocoruja.png"></h1>
 
                 <nav>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="index.html">Login</a></li>
+                        <li><a href="sobrenos.html">Sobre nós</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         
         <main>
-            <div class="principal">
-                
-                <h2 class="titulo-centralizado">Faça login para continuarmos com a sua sessão</h2>
-            </div>
+            <div class="login">
+                <h2 class="titulo-centralizado">Iniciar Sessão</h2>
 
-            <div class="beneficios">
-                <h3 class="titulo-centralizado">
-                    Benefícios
-                </h3>
+                <label for="id">ID</label>
+                <input type="text" id="id" class="input-padrao" required>
 
-                <ul>
-                    <li class="itens">Atendimento aos clientes</li>
-                    <li class="itens">Espaço diferenciado</li>
-                    <li class="itens">Localização</li>
-                    <li class="itens">Proficionais qualificados</li>
-                </ul>
+                <label for="senha">SENHA</label>
+                <input type="password" id="senha" class="input-padrao" required>
 
-                <img src="imagens/beneficios.jpg" class="imagembeneficios">
+                <input class="enviar" type="submit" value="Entrar">
+
+                <label for="semsenha" class="semsenha"><a href="semsenha.html">Esqueci a senha</a></label>
             </div>
         </main>
 
         <footer>
-            <img src="imagens/logo-branco.png">
+            <img src="imagens/minilogo.png">
             <p class="copyright">&copy;  Copyright Safe School - 2022 </p>
         </footer>
     </body>
