@@ -1,8 +1,6 @@
 html,body{
     height: 100%;
 }
-
-
 /*FIM DO CABEÇALHO---------------------------------------------------*/
 main{
     background-image: linear-gradient(90deg,#252525, #757373);
@@ -17,18 +15,12 @@ a:link {
  }
  
 
-@keyframes colors {
-    0%{
-        background-position: 0% 50%;
-    }
+ @keyframes colors {
+    0%{background-position: 0% 50%;}
 
-    50%{
-        background-position: 100% 50%;
-    }
+    50%{background-position: 100% 50%;}
 
-    100%{
-        background-position: 0% 50%;
-    }
+    100%{background-position: 0% 50%;}
 }
 
 .logo{
@@ -73,7 +65,7 @@ a:link {
     padding: 50px;
 }
 
-.titulo-centralizado {
+.titulo_centralizado {
     text-align: center;
     margin-top: 5%;
     margin-bottom: 30px;
